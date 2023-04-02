@@ -13,3 +13,9 @@ Agent Interface
 >Resolved tickets will be seen on the same dashboard screen.
 
 #Pre-requisites
+>java swing must be installed on to your eclipse IDE.
+>Eexecution enivironment of the project should be JavaSE-1.7(jdk-19).
+>Add external jar files to your project.
+> 1. ojdbc8 jar file. link - https://jar-download.com/?search_box=ojdbc8+jar
+> 2. rs2xml jar file. link - https://sourceforge.net/projects/finalangelsanddemons/files/rs2xml.jar/download
+> 

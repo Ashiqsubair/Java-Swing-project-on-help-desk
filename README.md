@@ -20,5 +20,5 @@ Agent Interface
 > 2. rs2xml jar file. link - https://sourceforge.net/projects/finalangelsanddemons/files/rs2xml.jar/download
 
 #SQL tables which need to be created before execution of the project.
-  >create table usertable (userid varchar2(40) primary key,username varchar2(40), useremail varchar2(40));
-  >create table catagorytable (catagoryid varchar2(10) primary key,catagoryname varchar2(20));
+>create table usertable (userid varchar2(40) primary key,username varchar2(40), useremail varchar2(40));
+>create table catagorytable (catagoryid varchar2(10) primary key,catagoryname varchar2(20));

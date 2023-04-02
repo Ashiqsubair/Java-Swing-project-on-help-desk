@@ -1,5 +1,5 @@
-Help desk 
-it's a simple java swing project which connects with the Oracle database for the working.
+Help desk.
+it's a simple java swing project which connects with the Oracle database.
 
 User Interface
 >User can enter the issue and submit the request.

@@ -11,3 +11,5 @@ Agent Interface
 >New tickets will be listed in the dashboard. select any ticket and add it to your name.
 >Select the tickets which are on your name and type the secret password which are provided to the users to resolve the ticket.
 >Resolved tickets will be seen on the same dashboard screen.
+
+#Pre-requisites

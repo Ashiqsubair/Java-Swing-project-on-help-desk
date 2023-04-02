@@ -18,4 +18,7 @@ Agent Interface
 >Add external jar files to your project.
 > 1. ojdbc8 jar file. link - https://jar-download.com/?search_box=ojdbc8+jar
 > 2. rs2xml jar file. link - https://sourceforge.net/projects/finalangelsanddemons/files/rs2xml.jar/download
-> 
+
+#SQL tables which need to be created before execution of the project.
+  create table usertable (userid varchar2(40) primary key,username varchar2(40), useremail varchar2(40));
+  create table catagorytable (catagoryid varchar2(10) primary key,catagoryname varchar2(20));

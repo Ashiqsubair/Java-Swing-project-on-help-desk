@@ -27,3 +27,4 @@ Agent Interface
 >4.     create table agenttable(agentid varchar2(10) primary key,agentname varchar2(30),agentpassword varchar2(20),email varchar2(30),phone varchar2(10));
   insert some dummy values into the agenttable.
 >5.     create table tickethandle(tickethandleid varchar2(40) primary key,ticketid varchar2(40) references tickettable(ticketid),agentid varchar2(10) references agenttable(agentid), startdate date,enddate date);
+![image](https://user-images.githubusercontent.com/72742730/229422546-8a09993f-d3b2-46ba-8797-761354d3e94f.png)

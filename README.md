@@ -22,7 +22,7 @@ Agent Interface
 #SQL tables which need to be created before execution of the project.
 >1.     create table usertable (userid varchar2(40) primary key,username varchar2(40), useremail varchar2(40));
 >2.     create table catagorytable (catagoryid varchar2(10) primary key,catagoryname varchar2(20));
-    insert some dummy values to the catagory.
+  insert some dummy values to the catagory.
 >3.     create table tickettable (ticketid varchar2(40) primary key,userid varchar2(40) references usertable(userid),description varchar2(600), catagoryid varchar2(10) references catagorytable(catagoryid),status varchar2(20), key varchar2(30));
 >4.     create table agenttable(agentid varchar2(10) primary key,agentname varchar2(30),agentpassword varchar2(20),email varchar2(30),phone varchar2(10));
     #insert some dummy values into the agenttable.

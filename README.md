@@ -28,3 +28,6 @@ Agent Interface
   insert some dummy values into the agenttable.
 >5.     create table tickethandle(tickethandleid varchar2(40) primary key,ticketid varchar2(40) references tickettable(ticketid),agentid varchar2(10) references agenttable(agentid), startdate date,enddate date);
 ![image](https://user-images.githubusercontent.com/72742730/229422546-8a09993f-d3b2-46ba-8797-761354d3e94f.png)
+![image](https://user-images.githubusercontent.com/72742730/229422681-8979756a-21e9-4628-ad88-c96516123487.png)
+![image](https://user-images.githubusercontent.com/72742730/229422812-48d7388f-3d67-4688-8c44-ad7cdfe8195f.png)
+![image](https://user-images.githubusercontent.com/72742730/229423046-46fe11c4-7442-4264-8110-af52c18ad7d6.png)
